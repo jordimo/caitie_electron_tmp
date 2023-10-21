@@ -1,0 +1,19 @@
+{
+    "authOptions":
+        {
+            "clientId": "ab8d7c9f-0801-4662-b2c6-e03108fe5f10",
+            "authority": "https://login.microsoftonline.com/9b4e92e4-323b-4b87-a984-a2dbb83c53ea"
+        },
+    "resourceApi":
+    {
+        "endpoint": "https://graph.microsoft.com/v1.0",
+        "scopes": ["User.Read", "Calendars.Read"]
+    },
+    "customProtocol":
+    {
+        "name": "caitie_app://"
+    },
+    "cache": {
+        "cacheLocation": "./data/cache.json"
+    }
+}
